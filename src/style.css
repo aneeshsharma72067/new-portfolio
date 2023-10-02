@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-red-light: #f43434;
+  --primary-red: #df1616;
+  --primary-dark: #1c1c1c;
+  --primary-gray: #a6a6a6;
+}
+
+/* ---------- FONT FACE ------------ */
+
+@font-face {
+  font-family: 'MonoSans';
+  src: url('./assets/fonts/MonaSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'B612';
+  src: url('./assets/fonts/B612-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-Regular.ttf');
+}
+
+/* ---------- STYLING ------------ */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.neuromorphism-bg {
+  border-radius: 1rem;
+  background: var(--primary-dark);
+  box-shadow: -7px -7px 14px #111111,
+    7px 7px 14px #272727;
+}
+
+.main-item {
+  padding: 5rem 2rem;
+  transition: 0.3s;
+  max-width: 70vw;
+}
+
+.font-inter {
+  font-family: 'Inter';
+}
+
+.text-stroke-1{
+  -webkit-text-stroke-width: 1px;
+}
+
+.text-stroke-zinc-800{
+  -webkit-text-stroke-color: #27272a;
+}
+@media only screen and (max-width: 560px) {
+  .main-item{
+    max-width: 95vw;
+    width: 95vw;
+    padding: 3rem 1rem;
+  }
+}

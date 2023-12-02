@@ -121,7 +121,7 @@ ul {
     width: max-content;
     margin-block-start: 0;
     margin-block-end: 0;
-    gap: 1.7rem;
+    gap: 1rem;
     padding: 0 10px;
   }
 }

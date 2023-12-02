@@ -81,4 +81,10 @@ export default {
     overflow-x: hidden;
   }
 }
+
+@media only screen and (max-width: 1600px) {
+  .container {
+    max-width: 100vw;
+  }
+}
 </style>

@@ -133,7 +133,7 @@ export default {
       const link = document.createElement("a");
       link.href = "/pdf/Aneesh_Sharma.pdf";
       link.target = "_blank";
-      link.download = "Aneesh_Sharma.pdf";
+      link.download = "ANEESH-SHARMA.pdf";
       link.click();
     },
   },

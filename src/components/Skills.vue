@@ -6,9 +6,18 @@
     <h1 class="sm:text-8xl text-6xl">
       <span class="text-shadow-red">Skill</span> Set
     </h1>
-    <div class="flex gap-14 my-10 slide-track">
+    <div class="flex gap-14 mt-10 mb-3 slide-track">
       <img
-        v-for="image in images"
+        v-for="image in images1"
+        :src="getImageUrl(image)"
+        :key="image"
+        alt="not-found"
+        class="h-24 hover:scale-125 duration-500"
+      />
+    </div>
+    <div class="flex gap-14 mb-10 mt-3 slide-track">
+      <img
+        v-for="image in images2"
         :src="getImageUrl(image)"
         :key="image"
         alt="not-found"
@@ -29,30 +38,35 @@ export default {
   data() {
     return {
       loading: true,
-      images: [
+      images1: [
         "html",
         "css",
         "js",
+        "php",
+        'python',
+        'c',
         "tailwind-css",
         "bootstrap",
         "react-native",
+        "html",
+        "css",
+        "js",
+        
+      ],
+      images2:[
         "express-js",
         "mongodb",
         "nodejs",
         "vue-js",
         "nextjs",
-        "php",
         "mysql",
         "figma",
         "npm",
-        "html",
-        "css",
-        "js",
-        "tailwind-css",
-        "bootstrap",
-        "react-native",
+        "firebase",
         "express-js",
-      ],
+        "mongodb",
+        "nodejs",
+      ]
     };
   },
   mounted() {

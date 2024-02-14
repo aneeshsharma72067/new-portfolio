@@ -16,19 +16,25 @@
       <ProjectComponent imageName="labour-link.png" projectName="LabourLink - A Job Portal for Labours"
         description="LabourLink is user-friendly platform for laborers to find work, built with React.js, Vite, TailwindCSS and Firebase"
         repoUrl="https://github.com/aneeshsharma72067/labourlink-dupe.git" />
-
+      <ProjectComponent imageName="sustainify.png" projectName="Sustainify - Solving social problems socially"
+        description="Sustainify empowers users to connect, share environmental concerns, and collaborate on cleanup efforts through image-based awareness campaigns. "
+        repoUrl="https://github.com/aneeshsharma72067/sustainify.git" />
+      
     </div>
     <div class="small-projects">
       <h1 class="text-4xl my-10">Mini Projects</h1>
-      <div class="flex w-full gap-10 flex-col sm:flex-row">
+      <div class="flex w-full gap-10 flex-col sm:grid sm:grid-cols-3">
         <ProjectComponent imageName="movies-site.png" projectName="MovieScraper"
           description="A web scraping application made using OMDB API for searching movies"
           repoUrl="https://github.com/aneesh1024/movies-scraper/"
           previewUrl="https://aneesh1024.github.io/movies-scraper" />
         <ProjectComponent imageName="explorer-site.png" projectName="Github Explorer"
-          description="An application using the GitHub API for searching github profiles through their usernames "
+          description="An application using the GitHub API for searching github profiles through their usernames"
           repoUrl="https://github.com/aneesh1024/github-explorer/"
           previewUrl="https://aneesh1024.github.io/github-explorer" />
+        <ProjectComponent imageName="ray-caster.png" projectName="Ray Casting Engine"
+          description="A ray casting engine written in C and OpenGL"
+          repoUrl="https://github.com/aneesh1024/raycaster.git" />
         <ProjectComponent imageName="random-site.png" projectName="Random User Generator"
           description="A small Vue.js application used to generate random user data using the randomuser API"
           repoUrl="https://github.com/aneeshsharma72067/Random-User-Generator/"
@@ -36,11 +42,7 @@
       </div>
     </div>
   </section>
-  <!-- <LoadingSkeleton v-if="loading" /> -->
-  <!-- <div
-    v-if="loading"
-    class="hero h-[70vh] neuromorphism-bg main-item !bg-gradient-to-r !from-zinc-500 !to-red-300 animate-pulse p-0"
-  ></div> -->
+  
 </template>
 
 <script>

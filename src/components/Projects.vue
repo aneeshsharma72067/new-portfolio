@@ -4,6 +4,10 @@
       Project Gallery
     </h1>
     <div class="big-projects flex flex-col w-full gap-10 sm:grid sm:grid-cols-3 ">
+      <ProjectComponent imageName="sustainify.png" projectName="Sustainify - Solving social problems socially"
+        description="Sustainify empowers users to connect, share environmental concerns, and collaborate on cleanup efforts through image-based awareness campaigns. "
+        repoUrl="https://github.com/aneeshsharma72067/sustainify.git"
+        previewUrl="https://sustainify-web.netlify.app/" />
       <ProjectComponent imageName="blog-site.png" projectName="HypePost - A Blog Application"
         description="A dynamic blog platform, built with the MERN stack, facilitating blog creation and sharing for content enthusiasts."
         repoUrl="https://github.com/aneeshsharma72067/eride-website.git" />
@@ -16,9 +20,6 @@
       <ProjectComponent imageName="labour-link.png" projectName="LabourLink - A Job Portal for Labours"
         description="LabourLink is user-friendly platform for laborers to find work, built with React.js, Vite, TailwindCSS and Firebase"
         repoUrl="https://github.com/aneeshsharma72067/labourlink-dupe.git" />
-      <ProjectComponent imageName="sustainify.png" projectName="Sustainify - Solving social problems socially"
-        description="Sustainify empowers users to connect, share environmental concerns, and collaborate on cleanup efforts through image-based awareness campaigns. "
-        repoUrl="https://github.com/aneeshsharma72067/sustainify.git" />
       
     </div>
     <div class="small-projects">

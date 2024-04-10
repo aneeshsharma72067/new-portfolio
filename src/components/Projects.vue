@@ -13,10 +13,10 @@
         repoUrl="https://github.com/aneeshsharma72067/coderaven-with-js" previewUrl="https://coderaven.onrender.com/" />
       <ProjectComponent imageName="blog-site.png" projectName="HypePost - A Blog Application"
         description="A dynamic blog platform, built with the MERN stack, facilitating blog creation and sharing for content enthusiasts."
-        repoUrl="https://github.com/aneeshsharma72067/eride-website.git" />
+        repoUrl="https://github.com/aneeshsharma72067/Blog-App" />
       <ProjectComponent imageName="car-site.png" projectName="Eride - A Car Booking Platform"
         description="A user-friendly car booking platform developed with PHP for seamless vehicle reservations and travel planning."
-        repoUrl="https://github.com/aneeshsharma72067/Blog-App" />
+        repoUrl="https://github.com/aneeshsharma72067/eride-website.git" />
       <ProjectComponent imageName="weather-site.png" projectName="Weather Wave - A Weather Forecasting Website"
         description="A real-time weather forecasting website, crafted using the Vue.js and OpenWeathermap API, providing accurate weather updates at your fingertips."
         repoUrl="https://github.com/aneeshsharma72067/weather-wave" />

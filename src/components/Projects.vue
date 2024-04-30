@@ -8,6 +8,11 @@
         description="Sustainify empowers users to connect, share environmental concerns, and collaborate on cleanup efforts through image-based awareness campaigns. "
         repoUrl="https://github.com/aneeshsharma72067/sustainify.git"
         previewUrl="https://sustainify-web.netlify.app/" />
+       <ProjectComponent imageName="chat.png" projectName="Chat Application"
+        description="A fully mobile responsive Chat Application with end to end encryption built with modern Javascript framework Sveltekit and Firebase"
+        repoUrl="https://github.com/aneeshsharma72067/gengo-chat"
+        previewUrl="https://gengo-chat.netlify.app"
+         />
       <ProjectComponent imageName="coderaven.png" projectName="Coderaven - Collaborative Real-Time Code Editor"
         description="Coderaven enables real-time collaborative coding with multiple users editing projects simultaneously in a web-based environment."
         repoUrl="https://github.com/aneeshsharma72067/coderaven-with-js" previewUrl="https://coderaven.onrender.com/" />
@@ -23,6 +28,7 @@
       <ProjectComponent imageName="labour-link.png" projectName="LabourLink - A Job Portal for Labours"
         description="LabourLink is user-friendly platform for laborers to find work, built with React.js, Vite, TailwindCSS and Firebase"
         repoUrl="https://github.com/aneeshsharma72067/labourlink-dupe.git" />
+
 
     </div>
     <div class="small-projects">

@@ -8,11 +8,13 @@
         description="Sustainify empowers users to connect, share environmental concerns, and collaborate on cleanup efforts through image-based awareness campaigns. "
         repoUrl="https://github.com/aneeshsharma72067/sustainify.git"
         previewUrl="https://sustainify-web.netlify.app/" />
-       <ProjectComponent imageName="chat.png" projectName="Chat Application"
+      <ProjectComponent imageName="leetcode.png" projectName="Leetcode POTD Email Service"
+        description="An API Service which sends Leetcode POTD through email. It uses the Leetcode GraphQL endpoint with Cron Job Scheduling"
+        repoUrl="https://github.com/aneeshsharma72067/leetcode-potd-email-service"
+        previewUrl="https://leetcode-potd-email-service.onrender.com/potd" />
+      <ProjectComponent imageName="chat.png" projectName="Chat Application"
         description="A fully mobile responsive Chat Application with end to end encryption built with modern Javascript framework Sveltekit and Firebase"
-        repoUrl="https://github.com/aneeshsharma72067/gengo-chat"
-        previewUrl="https://gengo-chat.netlify.app"
-         />
+        repoUrl="https://github.com/aneeshsharma72067/gengo-chat" previewUrl="https://gengo-chat.netlify.app" />
       <ProjectComponent imageName="coderaven.png" projectName="Coderaven - Collaborative Real-Time Code Editor"
         description="Coderaven enables real-time collaborative coding with multiple users editing projects simultaneously in a web-based environment."
         repoUrl="https://github.com/aneeshsharma72067/coderaven-with-js" previewUrl="https://coderaven.onrender.com/" />

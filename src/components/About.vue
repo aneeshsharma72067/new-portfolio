@@ -7,12 +7,9 @@
           Hey folks, <br />
           <br />
           I'm your regular person who loves tinkering with computers and code.
-          Yeah, I'm talking about the stuff that makes your smartphone smarter
-          and your favorite websites actually work. <br />
+          May it be the code behind a big website or the underlying architecture of an application. I am always interested in tech. <br />
           <br />
-
-          You know, I might not have a gazillion years of experience, but what I
-          lack in years, I make up for in sheer enthusiasm. I'm that person who
+          While I do lack in experience, I make up for in sheer enthusiasm. I'm that person who
           stays up late, just to crack that coding puzzle <br />
           <br />
           Let's face it, tech is changing the world faster than you can say

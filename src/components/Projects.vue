@@ -9,9 +9,9 @@
         repoUrl="https://github.com/aneeshsharma72067/sustainify.git"
         previewUrl="https://sustainify-web.netlify.app/" />
       <ProjectComponent imageName="leetcode.png" projectName="Leetcode POTD Email Service"
-        description="An API Service which sends Leetcode POTD through email. It uses the Leetcode GraphQL endpoint with Cron Job Scheduling"
+        description="An Email Service which sends Leetcode POTD through email to all subscribed users. It uses the Leetcode GraphQL endpoint with Cron Job Scheduling"
         repoUrl="https://github.com/aneeshsharma72067/leetcode-potd-email-service"
-        previewUrl="https://leetcode-potd-email-service.onrender.com/potd" />
+        previewUrl="https://leetcode-potd-service-client.vercel.app/" />
       <ProjectComponent imageName="chat.png" projectName="Chat Application"
         description="A fully mobile responsive Chat Application with end to end encryption built with modern Javascript framework Sveltekit and Firebase"
         repoUrl="https://github.com/aneeshsharma72067/gengo-chat" previewUrl="https://gengo-chat.netlify.app" />

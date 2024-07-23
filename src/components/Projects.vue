@@ -36,6 +36,9 @@
     <div class="small-projects">
       <h1 class="text-4xl my-10">Mini Projects</h1>
       <div class="flex w-full gap-10 flex-col sm:grid sm:grid-cols-3">
+         <ProjectComponent imageName="file-encrypt.png" projectName="File Encryption Utility"
+          description="A file encryption utility written in C++ and Native Windows API"
+          repoUrl="https://github.com/aneeshsharma72067/File-Encryption-Tool" />
         <ProjectComponent imageName="movies-site.png" projectName="MovieScraper"
           description="A web scraping application made using OMDB API for searching movies"
           repoUrl="https://github.com/aneesh1024/movies-scraper/"

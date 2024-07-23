@@ -30,7 +30,7 @@
         class="social-media-links my-4 flex gap-10 px-5 items-center justify-start"
       >
         <a
-          href="https://instagram.com"
+          href="https://www.instagram.com/aneesh72067/"
           target="_blank"
           class="hover:shadow-[0_0_20px_#df1616] duration-300 rounded-2xl"
         >
@@ -53,7 +53,7 @@
           </svg>
         </a>
         <a
-          href="https://github.com"
+          href="https://github.com/aneeshsharma72067"
           target="_blank"
           class="hover:shadow-[0_0_20px_#df1616] duration-300 rounded-full"
         >

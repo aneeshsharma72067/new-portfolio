@@ -8,8 +8,8 @@
         description="Sustainify empowers users to connect, share environmental concerns, and collaborate on cleanup efforts through image-based awareness campaigns. "
         repoUrl="https://github.com/aneeshsharma72067/sustainify.git"
         previewUrl="https://sustainify-web.netlify.app/" />
-      <ProjectComponent imageName="crypto.png"
-        projectName="A Crypto Screener Application in React.js with Tailwind CSS. Uses the Coingecko API for cryptocurrency data."
+      <ProjectComponent imageName="crypto.png" projectName="CryptoPulse - Crypto Screener Application"
+        description="A Crypto Screener Application in React.js with Tailwind CSS. Uses the Coingecko API for cryptocurrency data."
         repoUrl="https://github.com/aneeshsharma72067/cryptopulse" previewUrl="https://cryptopulse1.vercel.app/" />
       <ProjectComponent imageName="leetcode.png" projectName="Leetcode POTD Email Service"
         description="An Email Service which sends Leetcode POTD through email to all subscribed users. It uses the Leetcode GraphQL endpoint with Cron Job Scheduling"

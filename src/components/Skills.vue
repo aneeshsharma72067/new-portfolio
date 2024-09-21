@@ -1,28 +1,37 @@
 <template>
-  <section
-    class="max-w-full main-item overflow-hidden flex flex-col gap-16 font-bold items-center"
-    id="skills"
-  >
+  <section class="max-w-full main-item flex-wrap flex flex-col gap-16 font-bold items-center" id="skills">
     <h1 class="sm:text-8xl text-6xl">
       <span class="text-shadow-red">Skill</span> Set
     </h1>
-    <div class="flex gap-14 mt-10 mb-3 slide-track">
-      <img
-        v-for="image in images1"
-        :src="getImageUrl(image)"
-        :key="image"
-        alt="not-found"
-        class="h-24 hover:scale-125 duration-500"
-      />
-    </div>
-    <div class="flex gap-14 mb-10 mt-3 slide-track">
-      <img
-        v-for="image in images2"
-        :src="getImageUrl(image)"
-        :key="image"
-        alt="not-found"
-        class="h-24 hover:scale-125 duration-500"
-      />
+    <div class="flex flex-col gap-2 flex-wrap items-center justify-center">
+      <div class="flex gap-16 mx-auto w-max -mb-10">
+        <div :title="abbrConfig(image)" v-for="image in images1"
+          class="bg-gradient-to-br from-slate-500 to-slate-100 p-2 hover:scale-125 duration-300 cursor-pointer hex-bg flex items-center justify-center">
+          <img :src="getImageUrl(image)" :key="image" alt="not-found"
+            class="h-[4.5rem] place-self-center   duration-500" />
+        </div>
+      </div>
+      <div class="flex gap-16 mx-auto w-max -mb-10">
+        <abbr :title="abbrConfig(image)" v-for="image in images2"
+          class="bg-gradient-to-br from-slate-500 to-slate-100 p-2 hover:scale-125 duration-300 cursor-pointer hex-bg flex items-center justify-center">
+          <img :src="getImageUrl(image)" :key="image" alt="not-found"
+            class="h-[4.5rem] place-self-center   duration-500" />
+        </abbr>
+      </div>
+      <div class="flex gap-16 mx-auto w-max -mb-10">
+        <abbr :title="abbrConfig(image)" v-for="image in images3"
+          class="bg-gradient-to-br from-slate-500 to-slate-100 p-2 hover:scale-125 duration-300 cursor-pointer hex-bg flex items-center justify-center">
+          <img :src="getImageUrl(image)" :key="image" alt="not-found"
+            class="h-[4.5rem] place-self-center   duration-500" />
+        </abbr>
+      </div>
+      <div class="flex gap-16 mx-auto w-max">
+        <abbr :title="abbrConfig(image)" v-for="image in images4"
+          class="bg-gradient-to-br from-slate-500 to-slate-100 p-2 hover:scale-125 duration-300 cursor-pointer hex-bg flex items-center justify-center">
+          <img :src="getImageUrl(image)" :key="image" alt="not-found"
+            class="h-[4.5rem] place-self-center   duration-500 " />
+        </abbr>
+      </div>
     </div>
   </section>
 
@@ -33,6 +42,7 @@
 </template>
 
 <script>
+
 export default {
   name: "SkillsComponent",
   data() {
@@ -42,30 +52,33 @@ export default {
         "html",
         "css",
         "js",
-        "php",
+        "svelte",
         'python',
-        'c',
         "tailwind-css",
-        "bootstrap",
-        "react-native",
-        "html",
-        "css",
-        "js",
-        
+
       ],
-      images2:[
+      images2: [
+        "flask",
+        "react",
+        "typescript",
+        "java",
+        'c'
+      ],
+      images3: [
         "express-js",
         "mongodb",
         "nodejs",
-        "vue-js",
+        "vuejs",
         "nextjs",
         "mysql",
-        "figma",
+
+      ],
+      images4: [
         "npm",
         "firebase",
-        "express-js",
-        "mongodb",
-        "nodejs",
+        "spring-boot",
+        "figma",
+        "postgresql"
       ]
     };
   },
@@ -82,24 +95,61 @@ export default {
         import.meta.url
       );
     },
+    abbrConfig(text) {
+      if (text === "c") {
+        return "C++"
+      }
+      if (text.length <= 4) {
+        return text.toUpperCase();
+      }
+      if (text.includes('-')) {
+        text = text.split('-')
+        let part1 = text[0]
+        let part2 = text[1]
+
+        if (part1.length <= 3) {
+          part1 = part1.toUpperCase();
+        }
+        else {
+          part1 = part1.charAt(0).toUpperCase() + part1.slice(1);
+        }
+        if (part2.length <= 3) {
+          part2 = part2.toUpperCase();
+        }
+        else {
+          part2 = part2.charAt(0).toUpperCase() + part2.slice(1);
+        }
+        return part1 + " " + part2
+      }
+      return text.charAt(0).toUpperCase() + text.slice(1)
+    }
   },
 };
 </script>
 
 <style lang="css" scoped>
+.hex-bg {
+  clip-path: polygon(30% 0%, 70% 0%, 100% 50%, 70% 100%, 30% 100%, 0% 50%);
+  width: 6rem;
+}
+
 .skillsSection-enter-from {
   opacity: 0;
 }
+
 .skillsSection-enter-to {
   opacity: 1;
 }
+
 .skillsSection-enter-active {
   transition: 0.3s ease-in-out all;
 }
+
 .text-shadow-red {
   text-shadow: 0 0 10px #f14343;
   color: var(--primary-dark);
 }
+
 .slide-track {
   animation: scroll 20s linear infinite;
   /* transform: translateX(calc((-250px * 9))); */
@@ -114,6 +164,7 @@ export default {
   0% {
     transform: translateX(120px);
   }
+
   100% {
     transform: translateX(calc((-250px * 9)));
   }

@@ -8,6 +8,9 @@
         description="Sustainify empowers users to connect, share environmental concerns, and collaborate on cleanup efforts through image-based awareness campaigns. "
         repoUrl="https://github.com/aneeshsharma72067/sustainify.git"
         previewUrl="https://sustainify-web.netlify.app/" />
+      <ProjectComponent imageName="crypto.png"
+        projectName="A Crypto Screener Application in React.js with Tailwind CSS. Uses the Coingecko API for cryptocurrency data."
+        repoUrl="https://github.com/aneeshsharma72067/cryptopulse" previewUrl="https://cryptopulse1.vercel.app/" />
       <ProjectComponent imageName="leetcode.png" projectName="Leetcode POTD Email Service"
         description="An Email Service which sends Leetcode POTD through email to all subscribed users. It uses the Leetcode GraphQL endpoint with Cron Job Scheduling"
         repoUrl="https://github.com/aneeshsharma72067/leetcode-potd-email-service"
@@ -18,15 +21,6 @@
       <ProjectComponent imageName="coderaven.png" projectName="Coderaven - Collaborative Real-Time Code Editor"
         description="Coderaven enables real-time collaborative coding with multiple users editing projects simultaneously in a web-based environment."
         repoUrl="https://github.com/aneeshsharma72067/coderaven-with-js" previewUrl="https://coderaven.onrender.com/" />
-      <ProjectComponent imageName="blog-site.png" projectName="HypePost - A Blog Application"
-        description="A dynamic blog platform, built with the MERN stack, facilitating blog creation and sharing for content enthusiasts."
-        repoUrl="https://github.com/aneeshsharma72067/Blog-App" />
-      <ProjectComponent imageName="car-site.png" projectName="Eride - A Car Booking Platform"
-        description="A user-friendly car booking platform developed with PHP for seamless vehicle reservations and travel planning."
-        repoUrl="https://github.com/aneeshsharma72067/eride-website.git" />
-      <ProjectComponent imageName="weather-site.png" projectName="Weather Wave - A Weather Forecasting Website"
-        description="A real-time weather forecasting website, crafted using the Vue.js and OpenWeathermap API, providing accurate weather updates at your fingertips."
-        repoUrl="https://github.com/aneeshsharma72067/weather-wave" />
       <ProjectComponent imageName="labour-link.png" projectName="LabourLink - A Job Portal for Labours"
         description="LabourLink is user-friendly platform for laborers to find work, built with React.js, Vite, TailwindCSS and Firebase"
         repoUrl="https://github.com/aneeshsharma72067/labourlink-dupe.git" />
@@ -36,7 +30,7 @@
     <div class="small-projects">
       <h1 class="text-4xl my-10">Mini Projects</h1>
       <div class="flex w-full gap-10 flex-col sm:grid sm:grid-cols-3">
-         <ProjectComponent imageName="file-encrypt.png" projectName="File Encryption Utility"
+        <ProjectComponent imageName="file-encrypt.png" projectName="File Encryption Utility"
           description="A file encryption utility written in C++ and Native Windows API"
           repoUrl="https://github.com/aneeshsharma72067/File-Encryption-Tool" />
         <ProjectComponent imageName="movies-site.png" projectName="MovieScraper"

@@ -4,7 +4,7 @@
       Project Gallery
     </h1>
     <div class="big-projects flex flex-col w-full gap-10 sm:grid sm:grid-cols-3 ">
-      <ProjectComponent imageName="chatbot.png" projectName="AI Powered Chat Assistant
+      <ProjectComponent imageName="chatbot.png" projectName="AI Powered Chat Assistant"
         description="A Chat AI application built with Next.js, Flask, and PostgreSQL, using the GPT-3 and Gemini APIs for intelligent responses."
         repoUrl="https://github.com/aneeshsharma72067/chatbot-client"
         previewUrl="https://chatbot-client-drab.vercel.app/" />
